@@ -1,0 +1,279 @@
+/* GENERAL
+**************************/
+/*body {background-color: #eceeef;}*/
+ul {list-style: none;}
+a:hover {text-decoration: none;}
+hr {border-color: #ccc;}
+
+
+.raleway600, body {font-family: 'Raleway', sans-serif;}
+
+/* colors*/
+.hex-green  {color: #008744;}
+.hex-blue   {color: #0057e7;}
+.hex-red    {color: #d62d20;}
+.hex-yellow {color: #ffa700;}
+.hex-azzurro {color: #45c3d3;}
+.hex-white {color: #fff;}
+.hex-nero {color: #333;}
+.hex-grigio {color: #999;}
+
+
+/*font-size*/
+.font-0{font-size: 14px;}
+.font-1{font-size: 18px;}
+.font-2{font-size: 20px;}
+.font-3{font-size: 24px;}
+.font-4{font-size: 28px;}
+
+/* font-weight */
+.fw-600{font-weight: 600;}
+
+/* text shadow*/
+.shadow {text-shadow: 3px -1px 10px rgba(150, 150, 150, 0.9);}
+
+/* divide line */
+.line {width: 70px; height: 1px; background-color: #45c3d3;}
+
+.text-center.divide-line span {
+    margin-left: auto;
+    margin-right: auto;}
+.divide-line span {
+        display: block;
+        content: "";
+        background-color: #45c3d3;
+        width: 90px;
+        height: 1px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+
+/* NAVBAR
+**************************/
+
+/*search*/
+.form-control {border-radius: 1.5rem; background-color: transparent;}
+.form-control:focus {background-color: transparent;}
+
+/* button search */
+.btn-outline-info:hover {color: #fff; background-color: #45c3d3; border-color: #45c3d3;}
+
+/* background navbar */
+.bg-custom {background-color: #292b2c47;}
+
+/* dropdown */
+.dropdown-item.active, .dropdown-item:active {background-color: #45c3d3}
+.dropdown-menu {background-color: #292b2c47 }
+.dropdown-item {color: #eee;}
+
+
+/*JUMBOTRON BIG
+*********************************/
+
+/* jumbotron background image */
+.jumbotron-filter {height: 650px; background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),url(img/img_2.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;}
+
+.jumbotron_image_page {position: relative; height: 350px;background-image: url(img/img_2.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;}
+.mt-150 {margin-top: 150px;}
+
+/* button call to action */
+.btn-info {color: #fff; background-color: #45c3d3; border-color: #45c3d3;}
+
+/*h1 intro*/
+.h1-intro { font-size: 20px; line-height: 30px;}
+
+
+/*ICONS LIFE
+*************************************/
+.title_1 {padding: 120px 0 0px 0; color: #333;}
+.title_2 {font-weight: 600; color: #333; padding: 0 0 120px 0;}
+.fa-download {border-bottom:2px solid; padding: 15px;}
+.fa-code {border-bottom:2px solid; padding: 15px;}
+.fa-cutlery {border-bottom:2px solid; padding: 15px;}
+.fa-share-alt {border-bottom:2px solid; padding: 15px;}
+.text-icons{font-weight: 600; line-height: 30px}
+
+
+/*ROW FOCUS
+*************************************/
+  .row-focus{background: #f5f5f5; min-height: 200px;}
+  .row-icons{color: #ccc;}
+  .row-text{font-size: 20px;color: #ccc;font-weight: 800;margin: 0; padding: 20px 0 0 0;}
+  .row-border{border-right: 2px solid #ccc;}
+
+  /* icons hover color */
+  .fa-html5, .fa-wordpress, .fa-mobile {
+    -webkit-transition: all 200ms ease-in-out;
+     -moz-transition: all 200ms ease-in-out;
+     -o-transition: all 200ms ease-in-out;
+     -ms-transition: all 200ms ease-in-out;
+     transition: all 200ms ease-in-out;}
+
+  .fa-html5:hover, .fa-wordpress:hover, .fa-mobile:hover {color: #45c3d3;
+    -webkit-transition: all 200ms ease-in-out;
+     -moz-transition: all 200ms ease-in-out;
+     -o-transition: all 200ms ease-in-out;
+     -ms-transition: all 200ms ease-in-out;
+     transition: all 200ms ease-in-out;}
+
+
+/*Jumbo call to action in 2 column
+*************************************/
+  .jumbo-color {background-color: #45c3d3;}
+  .text-row-left {font-size: 25px; color: #fff; font-weight: bold; line-height: 35px}
+  .text-row-right {font-size: 16px; line-height: 25px; color: #fff; font-weight: lighter;}
+  .text-call {border-right: 2px solid #fff;}
+
+
+/*CARDS POST
+*************************************/
+.card.card-border {border-left: 1px solid rgba(0,0,0,.125)!important}
+.card-category:hover {color: #45c3d3;}
+.card-title {font-weight: 600}
+
+
+
+/*E-MAIL SECTION
+*************************************/
+.jumbo-mail{min-height: 400px;background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),url(img/img_2.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;}
+.title-mail{padding: 60px 0 60px 0; color: #333;font-size: 50px;}
+
+/*form*/
+.form-mail{float: left;background: #fff;border-radius: 0;width: 40%;height: 60px}
+.form-mail:focus{background: #fff;}
+.form-name{float: left;width: 40%;background: #fff;border-radius: 0;height: 60px}
+.form-name:focus{background: #fff;}
+.form-button{float: left;height: 60px;width: 20%;border-radius: 0;background: #45c3d3;border: none;}
+.form-button:hover {background-color: #17bdd2;}
+
+
+
+/*
+  =======================================
+    PAGE
+  =======================================
+*/
+.page-cover-container {margin-top: 100px; text-align: center;}
+.page-cover-text{font-weight: 400;}
+
+/* page content */
+.content-left{width: 100%;height: auto; padding: 40px;}
+.content-sidebar{width: 30%;height: auto;padding: 40px;}
+
+
+.title-section {margin-bottom: 100px;}
+.title-page {color: #333;}
+.subtitle-page{color: #333; font-weight: 600;padding: 0 0 40px 0}
+.text-page{color: #333; font-weight: 400;}
+
+
+
+
+/*
+  =======================================
+    BLOG
+  =======================================
+*/
+.sort-post {border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px 0 10px 0;}
+.sort-by {font-weight: 600;}
+
+.card-filter {background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)),url(img/img_2.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;}
+
+.icon-card {text-align: center;padding: 40px;}
+
+.icon-card i {
+  -webkit-transition: all 200ms ease-in-out;
+ -moz-transition: all 200ms ease-in-out;
+ -o-transition: all 200ms ease-in-out;
+ -ms-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;}
+
+.icon-card i:hover {color: #45c3d3;
+  -webkit-transition: all 200ms ease-in-out;
+   -moz-transition: all 200ms ease-in-out;
+   -o-transition: all 200ms ease-in-out;
+   -ms-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;}
+
+
+/*
+  =======================================
+    SINGLE
+  =======================================
+*/
+.post-field{background: #eee; padding: 20px; margin: 20px 0; border-left: 4px solid #45c3d3;}
+
+.sort-post-single {border-top: 1px solid #ddd; padding: 10px 0 10px 0;}
+
+
+
+
+/*
+ =======================================
+ RESPONSIVE
+ =======================================
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+.sort-margin-responsive {margin-right: 20px}
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+.card {width: 100%!important;}
+
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+  /* navbar container no margin */
+  #no-margin {margin: 0}
+
+  /* 3 column focus */
+  .coded-focus {border: none;}
+  .wp-focus {margin-top: 20px!important; margin-bottom: 20px!important; border: none}
+
+  /* card-post */
+  .card-responsive {margin-top: 20px; margin-bottom: 20px;}
+
+  /* form */
+  .form-mail, .form-name, .form-button {width: 100%;}
+
+
+
+}
+
+
+
+
+
+
+
+
+/**/
